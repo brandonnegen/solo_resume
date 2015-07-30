@@ -16,12 +16,13 @@ li{
     margin: 2em;
 }
 h2{
-    color: #4E0D2B;
-    text-shadow: 0px 1px 0px #FF853F;
+    color: #FF853F;
+    text-shadow: 0px 1px 0px #4E0D2B;
 }
 h3{
-    color: #FF853F;
-    text-shadow: 0px 1px 0px #4E0D2B
+
+    color: #4E0D2B;
+    text-shadow: 0px 1px 0px #FF853F;
 }
 a{
     color: #D52434;
