@@ -26,6 +26,22 @@ module.exports = function(grunt){
                     "jquery/dist/jquery.min.js"
                 ],
                 dest: "server/public/vendors/"
+            },
+            fontawesome: {
+                expand: true,
+                cwd: "node_modules/",
+                src: [
+                    "font-awesome/css/font-awesome.min.css"
+                ],
+                dest: "server/public/vendors/"
+            },
+            fontawesomeicons: {
+                expand: true,
+                cwd: "node_modules/",
+                src: [
+                    "font-awesome/fonts/*.*"
+                ],
+                dest: "server/public/vendors/"
             }
         }
     });

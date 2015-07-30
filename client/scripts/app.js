@@ -3,12 +3,12 @@ $(document).ready(function(){
 
     $("body").on('click', '#clickyButton', function(){
         $(this).hide();
-        $(".container").slideDown().then(function(){
-            $(".container").removeClass('.container').addClass('.containerShow');
+        $(".slidingEffect").slideDown().then(function(){
+            $(".slidingEffect").removeClass('.slidingEffect').addClass('.slidingShow');
         });
     });
     $("body").on('click', function(){
-       $(".container").slideUp();
+       $(".slidingEffect").slideUp();
        $("#clickyButton").show();
     });
 });
